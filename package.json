@@ -1,0 +1,19 @@
+{
+  "name": "lefty-lucy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node esbuild.config.js",
+    "start": "tsc -noEmit -skipLibCheck && node esbuild.config.js production && node . run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.14.25",
+    "express": "4.17.3",
+    "phaser": "3.55.2",
+    "typescript": "^4.6.3"
+  }
+}
